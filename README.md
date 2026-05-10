@@ -1,64 +1,101 @@
 # SQL_Data_Warehouse_Project
 
-# Data Warehouse and Analytics Project
+## 📌 Overview
 
-Welcome to the **Data Warehouse and Analytics Project** repository! 🚀  
-This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
+This project demonstrates a complete **Data Warehouse and Analytics Solution** using SQL Server.
+It covers the process of importing raw data, transforming it, building a warehouse, and generating insights for reporting and analysis.
 
----
-## 🏗️ Data Architecture
+The project is designed as a portfolio project for learning and showcasing:
 
-The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
-
-1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
-2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
-3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
-
----
-## 📖 Project Overview
-
-This project involves:
-
-1. **Data Architecture**: Designing a Modern Data Warehouse Using Medallion Architecture **Bronze**, **Silver**, and **Gold** layers.
-2. **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.
-3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
-4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
-
-🎯 This repository is an excellent resource for professionals and students looking to showcase expertise in:
-- SQL Development
-- Data Architect
-- Data Engineering  
-- ETL Pipeline Developer  
-- Data Modeling  
-- Data Analytics  
+* SQL Development
+* Data Engineering
+* ETL Pipelines
+* Data Modeling
+* Data Analytics
 
 ---
 
+# 🏗️ Data Architecture
 
+The project follows the **Medallion Architecture** with three layers:
 
-## 🚀 Project Requirements
+### 🥉 Bronze Layer
 
-### Building the Data Warehouse (Data Engineering)
+* Stores raw data from source systems
+* Data is loaded directly from CSV files into SQL Server
 
-#### Objective
-Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
+### 🥈 Silver Layer
 
-#### Specifications
-- **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.
-- **Data Quality**: Cleanse and resolve data quality issues prior to analysis.
-- **Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries.
-- **Scope**: Focus on the latest dataset only; historization of data is not required.
-- **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
+* Cleans and standardizes data
+* Handles missing values and data quality issues
+
+### 🥇 Gold Layer
+
+* Contains business-ready data
+* Uses a star schema model for reporting and analytics
 
 ---
 
-### BI: Analytics & Reporting (Data Analysis)
+# 🚀 Project Goals
 
-#### Objective
-Develop SQL-based analytics to deliver detailed insights into:
-- **Customer Behavior**
-- **Product Performance**
-- **Sales Trends**
+## Data Warehouse Development
 
-These insights empower stakeholders with key business metrics, enabling strategic decision-making.  
+Build a modern SQL Server data warehouse by:
+
+* Importing data from ERP and CRM systems
+* Cleaning and transforming the data
+* Integrating data into a single analytical model
+* Creating optimized fact and dimension tables
+
+---
+
+## Analytics & Reporting
+
+Generate SQL-based insights for:
+
+* Customer Behavior
+* Product Performance
+* Sales Trends
+
+These insights help support business decision-making and reporting.
+
+---
+
+# 🛠️ Technologies Used
+
+* SQL Server
+* SQL
+* CSV Data Sources
+* ETL Processes
+* Star Schema Data Modeling
+
+---
+
+# 📊 Features
+
+* End-to-end ETL pipeline
+* Data cleansing and transformation
+* Medallion architecture implementation
+* Fact and dimension table design
+* Analytical SQL queries and reporting
+
+---
+
+# 📂 Project Structure
+
+* **Bronze Layer** → Raw data storage
+* **Silver Layer** → Cleaned and transformed data
+* **Gold Layer** → Analytics-ready data model
+
+---
+
+# 🎯 Learning Outcomes
+
+By completing this project, you can learn:
+
+* Data warehouse design
+* ETL development
+* SQL optimization
+* Data modeling techniques
+* Analytical reporting using SQL
 
